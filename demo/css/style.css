@@ -183,7 +183,7 @@ h1 {
 
 /************Content***********/
 
-#content {background: #bfbfbf;}
+#content {background: #bfbfbf;width: 100%;}
 
 .p21 {padding: 100px 0 21px;}
 .p48 {padding: 48px 0 94px;}
@@ -1351,3 +1351,7 @@ blockquote {
 		min-width: 320px;
 	}
 }	
+
+header img{
+	width: 100%;
+}
