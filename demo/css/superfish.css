@@ -1,0 +1,235 @@
+
+.bottom_menu {margin: 0;}
+
+.bottom_menu {text-align: left;}
+.bottom_menu > li {float: left;}
+.bottom_menu > li + li {margin-left: 23px;}
+
+.bottom_menu > li > a {
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 31px;
+	font-family: 'Asap';
+	color: #d7d7d7;
+	font-weight: 400;
+}
+
+.bottom_menu > li > a:hover,
+.bottom_menu > li.current a {color: #ff5800;}
+
+nav>.sf-menu {
+	z-index: 990;
+	text-align: left;
+	position: relative;
+	height: 51px;
+}
+
+nav { 
+	position:relative;
+	padding: 0;
+	margin: 0;
+}
+
+.sf-menu ul { 
+	position:absolute; 
+	top:-999px; 
+	display:none;
+	padding: 0;
+}
+
+.sf-menu li {
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+
+.sf-menu>li+li {margin-left: 50px;}
+
+.sf-menu>li>ul>li {
+  float: none;
+  position: static;
+}
+
+.sf-menu>li>a{
+	display: block;
+	text-align: left;
+	position: relative;
+	color: #666666;
+	font: 400 14px/21px 'Asap', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+
+.sf-menu>li>a:hover,
+.sf-menu>li.current>a{
+	position: relative;
+	text-decoration: none;
+	color: #000;
+}
+
+.sf-menu>li>a.sf-with-ul:after {
+	position: absolute;
+	content: '';
+	left: 30%;
+	top: 44px;
+	width: 17px;
+	height: 6px;
+	pointer-events: none;
+	z-index: 999;
+	display: block;
+}
+
+.sf-menu>li.current>a.sf-with-ul:after {
+
+}
+
+.sf-menu>li>ul>li>a.sf-with-ul:after {
+	content: '';
+	position: absolute;
+	display: none;
+	width: 7px;
+	height: 6px;
+	right: 20px;
+	bottom: 11px;
+	pointer-events: none;
+	z-index: 999;
+}
+
+
+/*================================>> 2 Level <<========================================*/
+
+.sf-menu li ul {
+	position: absolute;
+	z-index: 999;
+	top: 51px;
+	left: -47px;
+	padding: 17px 0 21px;
+	width: 175px;
+	text-align: center;
+	background: #646262;
+}
+
+.sf-menu li ul li{
+	position: relative;
+	text-align: left;
+	float: none !important;
+	padding: 0;
+	margin: 5px 0 9px;
+	cursor: default;
+	display: inline-block;
+}
+
+
+.sf-menu li ul li a{
+	position: relative;
+	text-transform: none;
+	z-index: 999;
+	display: inline;
+	color: #ffffff;
+	font: normal 12px/17px Arial;
+	text-decoration: none;
+	letter-spacing: -.4px;
+}
+
+.sf-menu>li>ul>li>a.sf-with-ul:after {
+	position: absolute;
+	content: '';
+	right: -18px;
+	width: 8px;
+	height: 7px;
+	top: 5px;
+	pointer-events: none;
+	z-index: 999;
+	display: block;
+}
+
+.sf-menu li li a:hover {  
+	color: #ff5800;
+	text-decoration: none;
+}
+
+/*================================>> 3 Level <<========================================*/
+
+.sf-menu li ul li ul{
+	position: absolute;
+	left: 147px;
+	top: -23px;
+	background: #ffffff;
+	width: 175px;
+	padding: 19px 0 20px;
+}
+
+.sf-menu li li ul li {
+	padding: 0;
+
+}
+
+.sf-menu li li ul li a {
+	color: #000;
+	padding: 0;	
+}
+
+.sf-menu li li ul li a:hover {
+	color: #ff5800;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+@media only screen and (max-width: 1299px) {
+	
+	.sf-menu > li + li {margin-left: 17px;}
+	.sf-menu > li > a {letter-spacing: -.2px;}
+}
+
+@media only screen and (max-width: 995px) {
+	
+	.sf-menu > li + li {margin-left: 13px;}
+
+	.bottom_menu > li + li {margin-left: 18px;}
+	.bottom_menu > li > a {font-size: 13px;}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.bottom_menu {display: none;}
+
+  	header nav{
+  		border: none !important;
+		float:none !important;
+		font:12px/15px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#927c67;
+		margin: 0 auto;	
+	}	
+
+  	header nav ul {border: none;}
+
+	.sf-menu{
+		display:none !important; 
+		float: none;
+	}
+
+	#mm0{
+		font: normal 12px/15px Arial, Helvetica, sans-serif;
+		background: #ff5800;
+		color:#fff;
+		width:100%;
+		margin: 0 auto 30px;
+		float: none;
+        outline: none;
+		border:2px solid #ff5800;
+	}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
