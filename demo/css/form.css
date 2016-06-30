@@ -106,7 +106,7 @@
 
 #form .error-message, 
 #form .empty-message {
-	color: #ff5800;
+	color: #124284;
 	font-size: 13px;
     line-height: 42px;
 	width:auto;
@@ -203,7 +203,7 @@
 
 .address1 a { 
 	display: inline-block; 
-	color: #ff5800;
+	color: #124284;
 	font: 400 14px/21px 'Lato', sans-serif;
 }
 

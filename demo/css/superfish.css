@@ -15,7 +15,7 @@
 }
 
 .bottom_menu > li > a:hover,
-.bottom_menu > li.current a {color: #ff5800;}
+.bottom_menu > li.current a {color: #124284;}
 
 nav>.sf-menu {
 	z-index: 990;
@@ -149,7 +149,7 @@ nav {
 }
 
 .sf-menu li li a:hover {  
-	color: #ff5800;
+	color: #124284;
 	text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ nav {
 }
 
 .sf-menu li li ul li a:hover {
-	color: #ff5800;
+	color: #124284;
 	font-weight: normal;
 	text-decoration: none;
 }
@@ -219,13 +219,13 @@ nav {
 
 	#mm0{
 		font: normal 12px/15px Arial, Helvetica, sans-serif;
-		background: #ff5800;
+		background: #124284;
 		color:#fff;
 		width:100%;
 		margin: 0 auto 30px;
 		float: none;
         outline: none;
-		border:2px solid #ff5800;
+		border:2px solid #124284;
 	}
 
 }

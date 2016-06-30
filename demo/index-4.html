@@ -51,20 +51,14 @@
         <div class="container">
             <div class="row">
                 <div class="grid_4">
-                    <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+                    <h1><a href="index.html"><img src="images/calida.png" alt="" style="width:350px"></a></h1>
                 </div>
                 <div class="grid_4">
-                    <div class="search_box">
-                        <form id="search" action="search.php" method="GET">
-                            <input type="text" name="s" value="Search" onfocus="if (this.value == 'Search') {this.value=''}" onblur="if (this.value == '') {this.value='Search'}">
-                            <a onClick="document.getElementById('search').submit()"><img src="images/search_btn.png" alt=""></a>
-                            <div class="clear"></div>      
-                        </form>
-                    </div>
+                    
                 </div>
                 <div class="grid_4">
-                    <div class="tel">24/7 Support:
-                        <div class="phone"><i class="fa fa-phone"></i>+1 959 603 6035</div>
+                    <div class="tel">
+                        <div class="phone"><i class="fa fa-phone"></i>+51 985 040 424</div>
                         <span>&nbsp;</span>
                         <a href="#"><i class="fa fa-envelope-o"></i>mail@demolink.org</a>
                     </div>
@@ -85,34 +79,15 @@
                 <div class="grid_9">
                     <nav>
                         <ul class="sf-menu">
-                            <li><a href="index.html">About us</a></li>
-                            <li><a href="index-1.html">New services</a></li>
-                            <li><a href="index-2.html">Products</a>
-                                <ul>
-                                    <li><a href="#">Vestibulum iaculis</a></li>
-                                    <li><a href="#">Fusce euismod conuat</a>
-                                        <ul>
-                                            <li><a href="#">Pellentesque sed</a></li>
-                                            <li><a href="#">Aliquam congue ferm</a></li>
-                                            <li><a href="#">Mauris accum</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Pellentesque</a></li>
-                               </ul>
-                            </li>
-                            <li><a href="index-3.html">Recent projects</a></li>
-                            <li class="current"><a href="index-4.html">Our contacts</a></li>
+                            <li class="current"><a href="index.html">Acerca de PML</a></li>
+                            <li><a href="index-1.html">Servicios</a></li>
                             
+                            <li><a href="index-3.html">Proyectos</a></li>
+                            <li><a href="index-4.html">Contacto</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="grid_3">
-                    <ul class="top_links">
-                        <li><a href="#">login</a></li>
-                        <li><a href="#">help</a></li>
-                        <li><a href="#">newsletter signup</a></li>
-                    </ul>
-                </div>
+                
             </div>           
         </div>
     </div>
@@ -125,11 +100,11 @@
     <div class="container">
         <div class="row">   
             <div class="grid_12">
-                <h3>How to find us</h3>
+                <h3>Encuéntranos</h3>
                 <div class="map">
                   <iframe class="map_c" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
                 </div>
-                <div class="box"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. </p></div>
+                
                 <address class="address1">
                     <p>8901 Marmora Road, Glasgow, D04 89GR.</p>
                     <dl>
@@ -139,17 +114,7 @@
                     <dd><span>FAX:</span> +1 800 889 9898</dd>
                     <dd><span>E-mail:&nbsp;</span><a href="#">mail@demolink.org</a></dd>
                     </dl>
-                </address>
-                <address class="address1">
-                    <p>9863 - 9867 Mill Road, Cambridge, MG09 99HT.</p>
-                    <dl>
-                    <dt></dt>
-                    <dd><span>Freephone: </span>+1 800 559 6580</dd>
-                    <dd><span>Telephone:</span> +1 800 603 6035</dd>
-                    <dd><span>FAX:</span> +1 800 889 9898</dd>
-                    <dd><span>E-mail:&nbsp;</span><a href="#">mail@demolink.org</a></dd>
-                    </dl>
-                </address>                                         
+                </address>                                      
             </div>              
         </div>
     </div>
@@ -158,7 +123,7 @@
     <div class="container">
         <div class="row">
             <div class="grid_12">
-                <h3>Contact form</h3>
+                <h3>Escríbenos</h3>
             </div>
         </div>
           <div class="row">
@@ -168,7 +133,7 @@
                     <div class="success-message">Contact form submitted</div>
                   </div>
                   <label class="name">
-                       <input type="text" placeholder="Name" data-constraints="@Required @JustLetters" />
+                       <input type="text" placeholder="Nombre" data-constraints="@Required @JustLetters" />
                        <span class="empty-message">*This field is required.</span>
                        <span class="error-message">*This is not a valid name.</span>
                   </label>                  
@@ -178,98 +143,27 @@
                        <span class="error-message">*This is not a valid email.</span>
                   </label>
                   <label class="phone">
-                       <input type="text" placeholder="Phone" data-constraints="@Required @JustNumbers"/>
+                       <input type="text" placeholder="Teléfono" data-constraints="@Required @JustNumbers"/>
                        <span class="empty-message">*This field is required.</span>
                        <span class="error-message">*This is not a valid phone.</span>
                   </label>
               </div>
               <div class="grid_7">
                   <label class="message">
-                    <textarea placeholder="Message" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                    <textarea placeholder="Mensaje" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
                     <span class="empty-message">*This field is required.</span>
                     <span class="error-message">*The message is too short.</span>
                   </label>
                   <div class="clear"></div>       
                   <div>
-                    <a href="#" class="link btn" data-type="submit">Send message</a>
+                    <a href="#" class="link btn" data-type="submit">Enviar Mensaje</a>
                   </div>
               </div>
           </form>
         </div>    
     </div>
 </div>          
-<div class="bg2 p21">
-    <div class="container">
-        <div class="row">     
-            <div class="grid_3">
-                <h6>News & Resource <br>Center</h6>
-                <ul class="list1">
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Brochures</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Press Releases</a></li>
-                    <li><a href="#">Reports</a></li>
-                    <li><a href="#">Research</a></li>
-                </ul>
-            </div>
-            <div class="grid_3">
-                <h6>Practices</h6>
-                <ul class="list1">
-                    <li><a href="#">Accounting</a></li>
-                    <li><a href="#">Antitrust and Competition</a></li>
-                    <li><a href="#">Financial Distress Litigation</a></li>
-                    <li><a href="#">Product Liability</a></li>
-                    <li><a href="#">Corporate Governance</a></li>
-                    <li><a href="#">Corporate Transaction Litigation</a></li>
-                    <li><a href="#">Employee Retirement Income</a></li>
-                    <li><a href="#">Energy and Commodities</a></li>
-                    <li><a href="#">Financial Institutions</a></li>
-                    <li><a href="#">Intellectual Property</a></li>
-                    <li><a href="#">Labor and Employment</a></li>
-                    <li><a href="#">Pharmaceuticals and Healthcare</a></li>
-                    <li><a href="#">Real Estate</a></li>
-                    <li><a href="#">Securities</a></li>
-                </ul>
-            </div>
-            <div class="grid_3">
-                <h6>Global Network</h6>
-                <ul class="list1">
-                    <li><a href="#">Asia Pacific</a></li>
-                    <li><a href="#">Canada</a></li>
-                    <li><a href="#">Europe, Middle East & Africa</a></li>
-                    <li><a href="#">Latin America</a></li>
-                    <li><a href="#">United States</a></li>
-                </ul>
-                <h6>About Us</h6>
-                <ul class="list1">
-                    <li><a href="#">Company Profile</a></li>
-                    <li><a href="#">Management Team</a></li>
-                    <li><a href="#">Company History</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Locations</a></li>
-                    <li><a href="#">Ethics & Compliance</a></li>
-                </ul>                
-            </div>                       
-            <div class="grid_3">
-                <a href="#" class="logo1"><img src="images/logo_min.png" alt=""></a>
-                <p class="add_txt">Quisque nulla. Vestiero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiarsus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultricposuere cubilia Curae; Suspendisse sollicitudin velit s pharetra augue n augue. Nam elit magna, hendametincidunt ac, viva sed, nulla. Donec porta diam. Quisque diam lorem, interdum vitae, dapib.</p>
-                <address class="address">
-                    <dl>
-                    <dt></dt>
-                        <dd>+1 959 603 6035</dd>
-                    </dl>              
-                </address>
-                <div class="copy">
-                    <span class="tr">&copy;</span>
-                    <span id="copyright-year"></span>
-                    <span>JS. Industrial Services.</span><br>
-                    <a href="index-6.html">Privacy Policy</a>
-                </div>
-            </div>  
-        </div>
-    </div>
-</div>            
+           
 </div>            
 
 <!--==================footer=======================-->
@@ -279,12 +173,11 @@
         <div class="row">
             <div class="grid_8">
                 <ul class="bottom_menu">
-                    <li><a href="index.html">About us</a></li>
-                    <li><a href="index-1.html">new Services</a></li>
-                    <li><a href="index-2.html">products</a></li>
-                    <li><a href="index-3.html">recent Projects</a></li>
-                    <li class="current"><a href="index-4.html">our Contacts</a></li>
-                    
+                    <li><a href="index.html">Acerca de PML</a></li>
+                    <li><a href="index-1.html">Servicios</a></li>
+                    <li><a href="index-3.html">Proyectos</a></li>
+                    <li class="current"><a href="index-4.html">Contacto</a></li>
+                   
                 </ul>
             </div>
             <div class="grid_4">

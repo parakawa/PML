@@ -32,7 +32,7 @@ p {
 a, 
 .list li a:hover i {
 	text-decoration: none;
-	color: #fd4403;
+	color: #124284;
 	transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -41,7 +41,7 @@ a,
 a:hover,
 .tel a:hover,
 .top_links li a:hover {
-	color: #ff5800;
+	color: #124284;
 	text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ h1 {
 .top_border {
 	position: relative;
 	background: #fff;
-	border-top: 4px solid #323232;
+	
 }
 
 .border_l {
@@ -119,15 +119,15 @@ h1 {
 .tel .phone {
 	display: inline-block;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 21px;
 	line-height: 28px;
-	color: #ff5800;
+	color: #124284;
 	letter-spacing: -.5px;
 	padding-left: 7px;
 }
 
 .tel .phone i {	
-	color: #ff5800;
+	color: #124284;
 	padding: 2px 2px 3px 0; 
 }
 
@@ -177,7 +177,7 @@ h1 {
 }
 
 .socials li a:hover {
-	background: #ff5800;
+	background: #124284;
 	color: #fff;
 }
 
@@ -195,7 +195,7 @@ h1 {
 .bg1 {background: #f9f9f9;}
 .bg2 {background: #323232;}
 .bg3 {background: #fff;}
-.bg4 {background: #ff5800;}
+.bg4 {background: #124284;}
 
 h2,h3,h4,h5,h6 {
 	display: block;
@@ -238,7 +238,7 @@ h5 {
 
 h6 {
 	font-family: 'Asap';
-	color: #ff5800;
+	color: #124284;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: bold;
@@ -273,7 +273,8 @@ h6 {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	background: url(../images/banner.jpg) center center no-repeat;
+	background: url(../images/bg-home.jpg) center center no-repeat;
+	background-size: cover;
 	min-height: 575px;
 }
 
@@ -319,7 +320,7 @@ h6 {
 .caption2 {
 	position: relative;
 	overflow: hidden;
-	background: #ff5800 url(../images/bg.jpg) 0 0 repeat-x;
+	background: #124284 url(../images/bg.jpg) 0 0 repeat-x;
 	height: 37px;
 	width: 100%;
 	color: #fff;
@@ -364,7 +365,7 @@ h6 {
 
 .capt time {
 	display: block;
-	color: #ff5800;
+	color: #124284;
 	margin-bottom: 9px;
 }
 
@@ -434,7 +435,7 @@ h6 {
 }
 
 .link:hover {
-	background: #ff5800;
+	background: #124284;
 	color: #323232;
 }
 
@@ -505,7 +506,7 @@ h6 {
 }
 
 .list li a:hover {
-	color: #ff5800;
+	color: #124284;
 	text-decoration: none;
 }
 
@@ -530,7 +531,7 @@ h6 {
 }
 
 .list1 a:hover,
-.list2 a:hover {color: #ff5800;}
+.list2 a:hover {color: #124284;}
 
 .list2 {
 	position: relative;
@@ -541,7 +542,7 @@ h6 {
 .list2 li {line-height: 34px;}
 
 .list2 time {
-	color: #ff5800;
+	color: #124284;
 	padding-right: 21px;
 }
 
@@ -576,7 +577,7 @@ h6 {
 }
 
 .accordion dt .fa {
-    color: #ff5800;
+    color: #124284;
     font-size: 16px;
     font-weight: bold;
     line-height: 25px;
@@ -666,9 +667,9 @@ blockquote {
 	
 }
 
-.bq_bot a:hover {color: #ff5800;}
+.bq_bot a:hover {color: #124284;}
 .bq_bot span {
-	color: #ff5800;
+	color: #124284;
 	font-size: 14px;
 	line-height: 16px;
 	display: inline-block;
@@ -740,7 +741,7 @@ blockquote {
 	font-size: 16px;
 }
 
-.thumb1 a:hover {color: #ff5800;}
+.thumb1 a:hover {color: #124284;}
 .thumb1:hover div {bottom: 0;}
 .thumb1.asd div {left: 0;}
 
@@ -787,7 +788,7 @@ blockquote {
 	font-size: 36px;
 	line-height: 40px;
 	float: left;
-	color: #ff5800;
+	color: #124284;
 	width: 7.5%;
 }
 
@@ -825,8 +826,8 @@ blockquote {
 }
 
 .p_left time {
-    border: 1px solid #ff5800;
-    color: #ff5800;
+    border: 1px solid #124284;
+    color: #124284;
     display: block;
     font: bold 45px/45px 'Asap';
     margin-top: 0;
@@ -860,7 +861,7 @@ blockquote {
 }
 .panel li a {
 	text-transform: uppercase;
-	color: #ff5800;
+	color: #124284;
 	font-size: 12px;
 }
 .panel li a:hover {color: #323232;}
@@ -928,7 +929,7 @@ blockquote {
 }
 
 .txt a {
-	color: #ff5800;
+	color: #124284;
     display: inline-block;
     font-size: 14px;
     letter-spacing: -0.2px;
@@ -964,7 +965,7 @@ blockquote {
 
 .copy a {
 	display: inline-block;
-	color: #ff5800;
+	color: #124284;
 	font: 400 12px/18px 'Lato';	
 }
 
