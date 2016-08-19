@@ -1,0 +1,36 @@
+#contact-us{
+	padding: 20px 0px;
+	.link{
+		float: right;
+	}
+}
+.map-google-app{
+	width:100%;
+}
+
+input,textarea{
+	width:100%;
+	padding:10px;
+	margin-bottom:20px;
+	border-radius:5px;
+	border:1px solid #D8D8D8;
+	background-color:#F2F2F2;
+}
+::-webkit-input-placeholder {
+   color: #686262;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #686262;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #686262;  
+}
+
+:-ms-input-placeholder {  
+   color: #686262;  
+}
+textarea{
+	height:169px;
+}

@@ -1,0 +1,156 @@
+@media screen and (max-width:1199px){
+	.thumb1 div {
+		width: 90%;
+		left: 16px;
+		padding:20px 0px;
+	}
+}
+@media screen and (max-width:991px){
+	.intro{
+		padding: 0 15px;
+	}
+	.p95,.p100{
+		padding: 60px 0;
+	}
+	.bck-white{
+		text-align: center;
+		.tel{
+			text-align: left;
+			&:after{
+				height: 0px;
+			}
+		}
+	}
+	.message {
+	    margin:120px auto 20px;
+	    width: 90%;
+		left: 0px;
+	}
+	.thumb1 div {
+		width: 90%;
+		left: 12px;
+		padding:10px 0px;
+		a{
+			font-size: 12px;
+		}
+	}
+	.services-item{
+		max-width: 350px;
+    	margin: 0 auto;
+	}
+
+
+}
+@media screen and (max-width:767px){
+	.width768{
+		width: 100%;
+		margin-bottom:40px;
+		.thumb{
+			max-width: 400px;
+			margin:0 auto;
+		}
+	}
+	.p95,.p100{
+		padding: 40px 0;
+	}
+	.intro{
+		h2{
+			font: 900 30px/40px 'Lato';
+		}
+		h4{
+			font-size: 20px;
+		}
+	}
+	.bck-white{
+		img{
+			width: 240px;
+		}
+		.tel{
+			text-align: right;
+			margin-top:15px;
+			margin-right: 8px;
+			a{
+				display: block;
+			}
+		}
+		span{
+			display: none;
+		}
+		.socials{
+			margin-right: 8px;
+		}
+	}
+	#owl-1 .item img {
+	    width: 100%;
+	    max-width: 335px;
+	}
+	.thumb1 div {
+		width: 100%;
+		left: 0px;
+	}
+	#projects{
+		text-align: center;
+	}
+	.projects-item{
+		display: inline-block;
+	}
+
+	footer{
+		.col-xs-6:first-child{
+			display: none;
+		}
+		.col-xs-6:nth-child(2){
+			text-align: center;
+			width: 100%;
+			.social-links{
+				li{
+					width:30px;
+					height: 30px;
+			    	line-height: 28px;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width:495px){
+	.width{
+		width:100%;
+	}
+	.bck-white{
+		text-align: center;
+		img{
+			width: 100%;
+    		max-width: 220px;
+		}
+		.tel{
+			text-align: center;
+			margin-top: 15px;
+			span{
+				display: none;
+			}
+			a{
+				margin-left: 7px;
+			}
+		}
+		.socials{
+			text-align: center;
+		}
+	}
+	#banner {
+	    height: 200px;
+	    min-height: 100%;
+	    padding: 0;
+		.message{
+			display: none;
+		}
+	}
+	.circle1{
+	    height: 42px;
+	    width: 42px;
+	    font-size: 18px;
+	    line-height: 40px;
+	    margin-top: 10px;
+	}
+	
+}

@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700);
+
+$gris:#E5E5E5;
+$blanco:white;
+$semi_blanco:#F9F9F9;
+$black_light:#292929;
+$azul:#337ab7;
+$azul_dark:#124284;
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-size:15px;
+	font-family: 'Lato', sans-serif;
+
+}
+ul{
+	list-style:none;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	&:hover{
+		text-decoration: none;
+	}	
+}
+h1{
+	text-align:left;
+}
+
+
+/*background colors*/
+.bck-blue{
+	background-color:$azul_dark;
+	color:white;
+}
+.bck-black{
+	background-color:$black_light;
+}
+.bck-gray{
+	background-color:$gris;
+}
+.bck-white{
+	background-color:$blanco;
+	color:black;
+}
+.bck-whiteDark{
+	background-color:$semi_blanco;
+}
+.p83{
+    padding: 95px 0 83px;
+}
+.p95{
+    padding: 95px 0 103px;
+}
+.p100 {
+    padding: 100px 0;
+}
+/************************/
